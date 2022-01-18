@@ -4,7 +4,7 @@ const App = () => {
   const [url, seturl] = useState("");
   const [shortCode, setShortCode] = useState(null);
   const handleClick = () => {
-    fetch("/shortener", {
+    fetch(`${process.env.apiUrl}/shortener`, {
       headers: {
         "Content-Type": "application/json",
       },
