@@ -2,7 +2,6 @@
   "name": "url-shortener",
   "version": "0.1.0",
   "private": true,
-  // "proxy":"https://1wg5lowei0.execute-api.us-east-1.amazonaws.com/prod/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
